@@ -7,6 +7,10 @@ a{
     color:rgba(0,0,0,0.87);
     text-decoration: none;
 }
+
+a:hover{
+    text-decoration: underline;
+}
 #header{
     list-style-type: none;
     padding: 0;
@@ -56,19 +60,27 @@ a{
     -moz-border-radius: 50px;
     border-radius: 50px;
     text-indent: 35px;
-    border: 1px solid grey;
+    border: 1px solid #e6e6e6;
     background: url("../img/search-24px.svg") no-repeat 10px center;
 }
 
-#google_search, #imfeelinglucky{
+#search input[type="text"]:hover{
+    box-shadow: 0 0 12px #e6e6e6;
+}
+.twobuttons{
     padding:8px 14px;
     background-color: #e6e6e6;
     border: 0.5px solid #e6e6e6;
-    color:gray;
+    color:#5F6368;
     margin:2px 2px;
     font-weight: 300;
+    border-radius: 4px;
 }
-
+.twobuttons:hover{
+    border: 1px solid black;
+    color: black;
+    font-weight: 300;
+}
 #leftfooter, #rightfooter{
     list-style-type: none;
     padding: 0;
