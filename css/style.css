@@ -1,37 +1,42 @@
-body{
+body {
     font-family: arial, sans-serif;
     font-weight: lighter;
     font-size: 13px;
 }
-a{
-    color:rgba(0,0,0,0.87);
+
+a {
+    color: rgba(0, 0, 0, 0.87);
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
-#header{
+
+#header {
     list-style-type: none;
     padding: 0;
     margin: 0;
     overflow: hidden;
 }
-#header li{
+
+#header li {
     float: right;
 }
-.headercontent{
+
+.headercontent {
     display: block;
     padding: 15px 10px;
 }
 
-#googleapps{
+#googleapps {
     position: relative;
     padding: 2px 2px;
-    top:10px;
+    top: 10px;
     margin: 0 14px 0 8px;
 }
-#signin{
+
+#signin {
     background-color: #4285f4;
     border: 0;
     color: white;
@@ -42,20 +47,20 @@ a:hover{
     margin-right: 22px;
 }
 
-#content{
+#content {
     position: absolute;
-    top:50%;
-    left:50%;
-    margin-top:-197px;
-    margin-left:-135px;
+    top: 50%;
+    left: 50%;
+    margin-top: -197px;
+    margin-left: -135px;
 }
 
-#search input[type="text"]{
+#search input[type="text"] {
     margin: 30px 0;
     width: 570px;
     height: 40px;
     position: relative;
-    left:-140px;
+    left: -140px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
@@ -64,33 +69,37 @@ a:hover{
     background: url("../img/search-24px.svg") no-repeat 10px center;
 }
 
-#search input[type="text"]:hover{
-    -webkit-box-shadow: 0 0 12px #e6e6e6;   
+#search input[type="text"]:hover {
+    -webkit-box-shadow: 0 0 12px #e6e6e6;
     box-shadow: 0 0 12px #e6e6e6;
 }
-.twobuttons{
-    padding:8px 14px;
+
+.twobuttons {
+    padding: 8px 14px;
     background-color: #e6e6e6;
     border: 0.5px solid #e6e6e6;
-    color:#5F6368;
-    margin:2px 2px;
+    color: #5F6368;
+    margin: 2px 2px;
     font-weight: 300;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
 }
-.twobuttons:hover{
+
+.twobuttons:hover {
     border: 1px solid black;
     color: black;
     font-weight: 300;
 }
-#leftfooter, #rightfooter{
+
+#leftfooter,
+#rightfooter {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-footer{
+footer {
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -99,16 +108,17 @@ footer{
     background: rgb(244, 244, 244);
 }
 
-#leftfooter li, #rightfooter li{
+#leftfooter li,
+#rightfooter li {
     display: inline-block;
 }
 
-#leftfooter{
+#leftfooter {
     position: fixed;
     left: 0;
 }
 
-#rightfooter{
+#rightfooter {
     position: fixed;
     right: 0;
 }
