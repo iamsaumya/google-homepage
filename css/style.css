@@ -65,6 +65,7 @@ a:hover{
 }
 
 #search input[type="text"]:hover{
+    -webkit-box-shadow: 0 0 12px #e6e6e6;   
     box-shadow: 0 0 12px #e6e6e6;
 }
 .twobuttons{
@@ -74,6 +75,8 @@ a:hover{
     color:#5F6368;
     margin:2px 2px;
     font-weight: 300;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
     border-radius: 4px;
 }
 .twobuttons:hover{
